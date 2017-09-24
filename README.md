@@ -5,7 +5,11 @@ Dropzone3's action plugin - markdown insert images solution
 
 #### 优雅使用Markdown
 
-清理Mac桌面时，了解到Dropzone3这款应用，发现自带的`action`高级功能有国内开发者创建了一键上传七牛的`action`。安装插件使用，发现本地环境没法正常上传，而且作者15年后就不再更新。遂了解下`Dropzone3`，在作者插件基础上，根据自己功能需求，完成了一个相对使用度比较高的`action`:`resizeup`。
+日常开发，程序员记录`markdown`必然是首选项。一切都好，唯独图片是个恼人的事情。存在本地，迁移文档时候路径就容易出问题，没法正常显示。上传图床，又靠谱又方便的实在是屈指可数。想来搞搞这个问题，也是偶然。
+
+清理Mac桌面时，了解到Dropzone3这款应用，可以方便开发`action`插件，有国内开发者创建了一键上传七牛的`action`。安装插件使用后，本地环境没法正常启动，而作者已经不再更新。了解下`Dropzone3`，在作者插件基础上，根据自己功能需求，完成了一个相对使用度比较高的`action`:`resizeup`。
+
+`resizeup`使用应该算是极简了，第一次使用配置后，之后只需拖拽图片，然后`ctrl + v`粘贴图片链接即可，我想这基本上是最简单的方案了吧
 
 
 
@@ -27,17 +31,32 @@ Dropzone3's action plugin - markdown insert images solution
 
 
 
+
 #### 安装使用
 
+**安装**
 
+``
 
-*安装*
+* 安装`Dropzone3`
 
-`Dropzone3`是mac上的一款应用，需要先安装下，自带的功能已经很强大。
+  `Dropzone3`是mac上的一款小强应用，桌面效率工具，[官网下载地址](https://aptonic.com/dropzone3/latest)
 
-安装插件：插件地址在此，[github仓库](https://github.com/onvno/resizeup)
+  `resizeup`是`Dropzone3`的一个插件。
 
-下载后双击安装`Add to Grid`，进入配置页，配置项如下：
+* 安装`resizeup`：
+
+```
+方法一：云盘下载解压，获取.dzbundle文件
+云盘链接:https://pan.baidu.com/s/1nu8TNLn 密码: bb4e
+
+方法二：下载本仓库，.dzbundle文件即为本插件
+仓库地址:https://github.com/onvno/resizeup
+```
+
+* 配置`resizeup`
+
+  下载后,双击`.dzbundle文件`安装选择`Add to Grid`，进入配置页，配置项如下：
 
 ![配置说明](./config.png)
 
@@ -48,15 +67,11 @@ Dropzone3's action plugin - markdown insert images solution
 
 
 
-*使用*
+**使用**
 
 拖拽到插件位置，等待返回信息，直接`ctrl + v`使用：
 
 ![giphy](./giphy.gif)
-
-
-
-
 
 
 
