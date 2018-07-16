@@ -63,6 +63,9 @@ Dropzone3's action plugin - markdown insert images solution
 * 4为选填，如不填写则本地不做备份处理
 * 6配置项，在`https://tinypng.com/developers`中填写邮件注册，获取免费`API key`填入即可
 
+**安装注意事项**
+安装中遇到问题可参考[issue](https://github.com/onvno/resizeup/issues/2)
+
 
 
 **使用**
